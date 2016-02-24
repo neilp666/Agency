@@ -1,0 +1,59 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+
+ /* ------- Global Styles ---------*/
+
+
+ body {
+  font-family: "brandon-grotesque", Helvetica, sans-serif
+ }
+
+ 
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* --------- variables -----------*/
+
+$white: #FFFFFF;
+$highlight: #7ac483;
+$grey_background: #f2f1f8;
+$grey_copy: #b9b7db;
+$dark_grey: #3f364e;
+
+ /* -------- Banner styles ----------*/
+
+
+
+ #banner {
+  background-image: url(banner-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  header {
+    padding: 2rem 0;
+  }
+  #logo {
+    color: $white;
+    font-weight: 700;
+    font-size: 1.75rem;
+    float: left;
+    margin: 0;
+  }
+ }
