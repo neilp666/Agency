@@ -23,7 +23,7 @@
   font-family: "brandon-grotesque", Helvetica, sans-serif
  }
 
- 
+
 .wrapper {
   width: 1440px;
   max-width: 90%;
@@ -55,5 +55,8 @@ $dark_grey: #3f364e;
     font-size: 1.75rem;
     float: left;
     margin: 0;
+    span {
+      font-weight: 400;
+    }
   }
  }
